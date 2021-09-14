@@ -15,7 +15,7 @@ public class verificaParImpar {
             System.out.println("O número " + num + " é ímpar");
         }
         */
-        /*
+
         System.out.print("Informe primeiro lado: ");
         float l1 = leNumero.nextFloat();
         System.out.print("Informe segundo lado: ");
@@ -26,15 +26,15 @@ public class verificaParImpar {
         if(l1==l2 && l2==l3){
             System.out.println("Equilátero");
         } else{
-            if(l1==l2 && l2!=l3){
+            if(l1 == l2 || l1 == l3 || l2 == l3){
                 System.out.println("Isósceles");
             }
             else{
                 System.out.println("Escaleno");
             }
         }
-         */
-
+        /**/
+        /*
         System.out.print("Informe a primeira nota: ");
         float n1 = leNumero.nextFloat();
         System.out.print("Informe a segunda nota: ");
@@ -50,6 +50,6 @@ public class verificaParImpar {
                 System.out.print("Reprovado");
         }
         System.out.print(" com média " + media);
-        /**/
+        */
     }
 }
