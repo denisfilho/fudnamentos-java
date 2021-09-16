@@ -1,18 +1,31 @@
-import java.util.Scanner;
-
+/*
 public class Triangulo {
-    public static void main(String[] args) {
-        Scanner leTeclado = new Scanner(System.in);
-        System.out.print("Informe o primeiro lado: ");
-        double lado1 = leTeclado.nextDouble();
-        System.out.print("Informe o primeiro lado: ");
-        double lado2 = leTeclado.nextDouble();
-        System.out.print("Informe o primeiro lado: ");
-        double lado3 = leTeclado.nextDouble();
+    double lado1;
+    double lado2;
+    double lado3;
+    double area;
 
-        double p = (lado1 + lado2 + lado3)/2;
-        double A = Math.sqrt(p*(p-lado1)*(p-lado2)*(p-lado3));
-
-        System.out.println("A área do triangulo é " + A);
+    public double calcularPerimetro (){
+        return (lado1 + lado2 + lado3)/2;
+    }
+    public double calcularArea (){
+        double perimetro = calcularPerimetro();
+        return Math.sqrt(perimetro*(perimetro-lado1)*(perimetro-lado2)*(perimetro-lado3));
     }
 }
+*/
+
+public class Triangulo{
+    public double[] lados = new double[3];
+    public double area;
+
+    public double calcularPerimetro (){
+        return (lados[0] + lados[1] + lados[2])/2;
+    }
+    public double calcularArea (){
+        double perimetro = calcularPerimetro();
+        return Math.sqrt(perimetro*(perimetro-lados[0])*(perimetro-lados[1])*(perimetro-lados[2]));
+    }
+}
+
+/**/
