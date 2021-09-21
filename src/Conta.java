@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Conta {
+public class Conta {
+    long numeroConta;
+    double saldoConta;
 }

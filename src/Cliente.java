@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Cliente {
+public class Cliente {
+    String cpf;
+    String nome;
 }
