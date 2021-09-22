@@ -1,3 +1,5 @@
+package ProjetoAlunoNotas;
+
 public class Constantes {
 
     static final int OPCAO_CADASTRAR_ALUNO = 1;
